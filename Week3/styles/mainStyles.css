@@ -1,0 +1,29 @@
+/* css styling for h1 element*/
+h1{
+	margin: 0;
+	padding: 4px;
+	color: orangered;
+}
+
+/* css styling for body element*/
+body {
+	font-family: Ariel, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 550px;
+	margin: 0;
+	padding: 16px;
+	border: 1px solid navy;
+}
+
+/* css styling for paragrapgh element*/
+p {
+	margin: 0;
+	padding-bottom: .5em;
+}
+
+/* css styling for img element */
+
+img {
+	float: left;
+	margin: 16px;
+}

@@ -1,0 +1,106 @@
+nav
+{
+	background-color: #000000;
+	padding: 5px;
+}
+
+nav ul
+{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+nav ul li
+{
+	list-style-type: none;
+	background-color: #B2B2B2;
+	display: inline;
+	padding: 15px;
+	margin: 5px;
+	border: 2px;
+	border-style: solid;
+	border-color: red;
+	border-radius: 10px;
+}
+
+nav ul li:hover
+{
+	background-color: #8E8E8E;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+header
+{
+	background-color: #B2B2B2;
+	padding: 10px;
+}
+
+footer
+{
+	background-color: #000000;
+	padding: 10px;
+}
+
+footer p
+{
+	color: white;
+	text-align: center
+}
+
+table 
+{
+	width: 100%;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	font-size: 20px;
+	margin: 20px;
+}
+
+table th
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: left;
+}
+
+table tr
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: left;
+}
+
+table td
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: left;
+}
+
+body
+{
+	font-family: Verdana;
+}
+
+main
+{
+	float: center;
+	width: 75%;
+	margin-bottom: 75px;
+	margin-top: 75px;
+	margin-left: 200px;
+	margin-right: 200px; 
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}

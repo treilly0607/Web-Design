@@ -1,0 +1,100 @@
+h1
+{
+    color: rebeccapurple;
+}
+nav
+{
+	background-color: grey;
+	padding: 5px;
+}
+
+nav ul
+{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+nav ul li
+{
+	list-style-type: none;
+	background-color: #B2B2B2;
+	display: inline;
+	padding: 15px;
+	margin: 5px;
+}
+
+nav ul li:hover
+{
+	background-color: darkseagreen;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+header
+{
+	background-image: url(../images/header_image.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border:1px solid blue;
+}
+
+body
+{
+    background-color: black;
+	font-family: Verdana;
+    color: white;
+}
+
+#content
+{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+#aboutUs
+{
+    text-align: center;
+}
+
+aside
+{
+    border: 2px solid yellow;
+    width: 17%;
+    float: right;
+}
+
+aside ul li 
+{
+    list-style-type: none;
+}
+
+aside ol li 
+{
+    list-style-type: none;
+}
+
+
+#bigPic {
+    width: 100%;
+}
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    
+}

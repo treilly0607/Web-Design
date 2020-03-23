@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- 
+	Author: Tristan Reilly S00199625
+    Date: 28/01/2020
+	Description: Template
+-->
+	
+<html lang="en"> <!-- declare primary language-->
+<head>
+	<meta charset="utf-8" /> <!-- 8-bit encoding -->
+	<meta name="description" content="Conact Us">
+	<meta name="keywords" content="Forum">
+	<meta name="autor" content="Tristan Reilly">
+	<title>Your Website</title>
+	<link rel="stylesheet" type="text/css" href="styles/mainStyles.css"/>
+</head>
+<body> <!-- Body start tag -->
+
+	<header>
+		<p>>Any Queries or Feedback please Complete and Submit (position relative 10px from top | - center)</p>
+	</header>
+	
+	<main> <!-- Main Tag-->
+		<section>
+            
+            <h3>Please enter the following information: (form action=" http://year1.ccpdev.me/FormTest.php"  method="get" or method="post")</h3>
+            
+            <form action="http://year1.cpdev.me/FormTest.php" method="post">
+            
+                <label for="first_name">First Name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                
+                <label for="gender">Gender :</label>
+                <input type="radio" id="gender" name="gender" value="male">Male
+                <input type="radio" id="gender" name="gender" value="female">Female
+                <input type="radio" id="gender" name="gender" value="other" checked>Other <br>
+                
+                <label for="internet"> Heard Of Us:</label>
+                <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                    <input type="checkbox" class="marginl" id="hear" name="paper" value="paper" checked> Newspaper <br>
+                    <input type="checkbox" class="marginl" id="hear" name="friend" value="friend" checked> Friend <br>
+                    <input type="checkbox" class="marginl" id="hear" name="add" value="add" checked> Others <br>
+                </fieldset>
+                <br>
+                <label for="message">Query  :</label>
+                
+                <textarea cols="40" rows="6" id="message" placeholder="Your Message must be less then 200 characters" data-maxlegnth="200" cols="40" ></textarea> <br>
+                
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+                
+            </form>
+            <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field</em></p>
+        </section>
+	</main>
+    
+	<footer> <!-- footer grouping of content -->
+		
+	</footer>
+</body>
+</html>
+	 
